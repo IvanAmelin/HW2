@@ -22,7 +22,9 @@
     display: inline-flex;
     margin: 0;
     padding: 0;
+    
 }
+
 .one:nth-child(1) {
     margin-top: 45px;
     margin-left: 45px;
@@ -47,3 +49,17 @@
     background: radial-gradient(circle at 80% 20%, rgb(8, 165, 204) 2%, #010a11);
     box-shadow: 60px -80px 80px rgba(0,0,0,.5) inset;
 }
+.one:nth-child(5) {
+    background: radial-gradient(circle at 80% 20%, rgb(8, 165, 204) 2%, #010a11);
+    box-shadow: 60px -20px 20px rgba(0,0,0,.5) inset;
+}
+.one:nth-child(9) {
+    background: radial-gradient(circle at 50% 10%, rgb(8, 165, 204) 2%, #010a11);
+    box-shadow: 60px -80px 80px rgba(0,0,0,.5) inset;
+}
+
+
+.one:nth-child(3) {
+    background-attachment: fixed;
+}
+
